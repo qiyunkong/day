@@ -1,0 +1,107 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	color:#fff;
+}
+html,body{
+	background-image: url("../images/bg/bg.png");
+	background-size: 100% 100%;
+	height: 100%;
+
+}
+.left{
+	float:left;
+}
+.rihgt{
+	float: right;
+}
+header{
+	padding-top: 20px;
+	height: 100px;
+}
+header .city{
+	font-size: 55px;
+	font-weight: normal;
+	text-indent: 60px;
+}
+
+#main{
+	padding-top: 260px;
+}
+#main .temp{
+	font-size: 150px;
+	font-weight: normal;
+	text-indent: 20px;
+}
+#main .info{
+	padding:75px 0 40px 0;
+	font-size: 50px;
+	text-indent: 20px;
+}
+#main .info_2{
+	margin-left: 20px;  
+	width: 15%;
+	background-color: hsla(0,0%,100%,.12);
+	line-height: 60px;
+	height: 60px;
+	border-radius: 10px;
+	font-size: 40px;
+	text-indent: 20px;
+}
+#main .info img{
+	height: 100%;
+	vertical-align: -26px;
+}
+#main .fl{
+	color: #94ce6f;
+	text-indent: 20px;
+}
+#show_sky{
+	padding-top: 180px;
+}
+#show_sky ul {
+	overflow: hidden;
+}
+#show_sky ul li{
+	width: 25%;
+	line-height: 60px;
+	font-size: 40px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+}
+#show_sky ul li h4{
+	color: #FFFFFFBB;
+}
+#rain{
+	padding-top: 20px;
+	line-height: 50px;
+	font-size: 38px;
+	text-indent: 50px;
+}
+#situation{
+	padding-top: 20px;
+	line-height: 50px;
+	font-size: 38px;
+	text-indent: 50px;
+}
+#day{
+	padding-top:100px; 
+}
+#day ul{
+	width: 90%;
+	margin:  0 auto;
+	overflow: hidden;
+	background-color: rgba(49, 58, 69, 0.45);
+}
+#day ul li img{
+	vertical-align: -35px;
+}
+#day ul li span{
+	font-size: 40px;
+}
+#day ul li span.day_max{
+	padding-left: 210px;
+	
+}
